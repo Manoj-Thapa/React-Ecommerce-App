@@ -1,0 +1,36 @@
+.Filter {
+  font-size: 20px;
+  margin: 100px 0;
+  box-shadow: #057f6e 0px 3px 8px;
+  font-weight: 500;
+  padding: 20px;
+  background-color: #057f6e;
+  border-radius: 10px;
+}
+
+input {
+  margin-left: 20px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .FilterIcon {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .Filter {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .FilterIcon {
+    display: none;
+  }
+}

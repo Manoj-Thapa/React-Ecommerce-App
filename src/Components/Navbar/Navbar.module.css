@@ -1,0 +1,49 @@
+.NavbarDesign {
+  background-color: #057f6e;
+  position: relative;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #13253a;
+}
+
+.Active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Active:hover {
+  color: #ffffff;
+}
+
+.Inactive {
+  color: #13253a;
+  text-decoration: none;
+}
+
+.Inactive:hover {
+  color: #13253a;
+}
+
+@media only screen and (max-width: 500px) {
+  .NavbarDesign {
+    background-color: #057f6e;
+    position: relative;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #13253a;
+  }
+
+  .NavBarShow {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+  }
+}
+
+@media only screen and (min-width: 501px) {
+  .NavBarShow {
+    display: none;
+  }
+}

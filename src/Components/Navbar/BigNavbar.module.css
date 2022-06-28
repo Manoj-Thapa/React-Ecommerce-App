@@ -1,0 +1,25 @@
+.Products {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.Cart {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  font-size: 34px;
+}
+
+.CartTotal {
+  position: absolute;
+  top: 4px;
+  right: 45px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 500px) {
+  .ActiveProducts {
+    display: none;
+  }
+}

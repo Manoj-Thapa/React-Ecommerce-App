@@ -1,0 +1,21 @@
+.ButtonCounter {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  border: 1px solid #c2c2c2;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50%;
+  padding-top: 1px;
+  line-height: 1;
+}
+
+.Quantity {
+  display: inline-block;
+  width: 50px;
+  height: 28px;
+  border-radius: 2px;
+  border: 1px solid #c2c2c2;
+  margin: 0 5px;
+  text-align: center;
+}

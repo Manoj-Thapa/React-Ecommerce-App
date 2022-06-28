@@ -1,0 +1,23 @@
+.Filter {
+  font-size: 20px;
+  margin: 100px 0;
+  box-shadow: #057f6e 0px 3px 8px;
+  font-weight: 500;
+  padding: 20px;
+  background-color: #057f6e;
+  border-radius: 10px;
+  position: relative;
+}
+
+.Cross {
+  position: absolute;
+  right: 20px;
+}
+
+input {
+  margin-left: 20px;
+}
+
+p {
+  margin: 8px 0;
+}
