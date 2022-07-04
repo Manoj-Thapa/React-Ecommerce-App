@@ -52,3 +52,7 @@ npm install
      * JavaScript
      * React
      * Bootstrap
+     
+# Frontend Coding Challenge
+
+![image](https://user-images.githubusercontent.com/49905268/177194550-49bcbf80-6fcf-4e44-86da-9d450e00085a.png)
